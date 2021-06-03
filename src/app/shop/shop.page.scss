@@ -1,0 +1,76 @@
+ion-content
+{
+    --ion-background-color: #fff;
+}
+.background-container
+{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    background: url("../../assets/assets/buildings-1245953_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:50%;
+    flex-direction: column;
+    justify-content: center;
+    
+    h1
+    {
+        text-align: center;
+        color: #fff;
+        font-weight: bold;
+        font-size: 25px;
+    }
+}
+
+.containers
+{
+    padding: 20px;
+    color: #051320;
+
+    h2
+    {
+        font-size: 17px;
+        font-weight: bold;
+        
+    }
+    .rows
+    {
+        margin-right: -5px;
+        margin-left: -5px;
+    }
+    
+    .col
+    {
+        float: left;
+        width: 33.33333333333333%;
+        position: relative;
+        min-height: 1px;
+        padding-right: 5px;
+        padding-left: 5px;
+
+        h4
+        {
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        p
+        {
+            font-size: 10px;
+            font-style: italic;
+        }
+        ion-button
+        {
+            width: 90%;
+            height: 20px;
+            --border-radius: 40px;
+            --background: #275c3c;
+            color: #fff;
+            font-weight: bold;
+            text-transform: none;
+            font-size: 8px;
+            margin-top: -7px;
+        }
+    }
+}
